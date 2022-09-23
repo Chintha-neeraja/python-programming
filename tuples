@@ -1,0 +1,27 @@
+#Add an item
+
+a=(4,6,2,8,3,1)
+print(a)
+a=a+(9,)
+print(a)
+a=a[:5]+(15,20,25)+a[:5]
+print(a)
+List=list(a)
+List.append(30)
+a=tuple(List)
+print(a)#python
+
+
+#Length of a tuple
+
+a=input()
+a=tuple(a)
+print(a)
+print(len(a))#pyton
+
+
+#Reverse a Tuple
+
+a=input()
+a=tuple(a)
+print(a[::-1])#python
