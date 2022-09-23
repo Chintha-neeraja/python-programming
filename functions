@@ -1,0 +1,29 @@
+#Arithmetic Operators
+
+def arith(n1,n2):
+    print(n1+n2)
+    print(n1-n2)
+    print(n1*n2)
+    print(n1/n2)
+    print(n1//n2)
+    print(n1%n2)
+a=int(input())
+b=int(input())
+arith(a,b)#python
+
+
+#Sqaure Root
+
+def sqrt(n):
+    print(n**2)
+a=int(input())
+sqrt(a)
+#python
+
+
+#Cube Root
+
+def cube(n):
+    print(n**3)
+a=int(input())
+cube(a)#python
