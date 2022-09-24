@@ -25,3 +25,13 @@ print(len(a))#pyton
 a=input()
 a=tuple(a)
 print(a[::-1])#python
+
+
+#Repeated element in a tuple
+
+n=int(input())
+a=2,4,5,6,2,3,4,4,7
+print(a)
+temp=a.count(n)
+print(temp)
+
